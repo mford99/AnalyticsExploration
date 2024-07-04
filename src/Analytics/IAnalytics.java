@@ -2,7 +2,7 @@ package src.Analytics;
 
 public interface IAnalytics 
 {
-    public void connectDBorDataSet();
+    public Boolean connectDBorDataSet();
 
     public void extractData();
 

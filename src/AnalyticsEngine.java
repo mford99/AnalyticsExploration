@@ -1,5 +1,7 @@
 package src;
 
+import src.Analytics.*;
+
 public class AnalyticsEngine {
 
     public static void main(String[] args)
@@ -10,7 +12,11 @@ public class AnalyticsEngine {
     
     private void beginAnalytics()
     {
-        
+        MovieAnalytics IMDBAnalytics = new MovieAnalytics();
+        if(IMDBAnalytics.connectDBorDataSet())
+        {
+            System.err.println("Success");
+        }
     }
 
 }
