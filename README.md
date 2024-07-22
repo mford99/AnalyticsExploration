@@ -1,2 +1,2 @@
 # AnalyticsExploration
-Exploration of Data Analytics using Java
+Exploration of Data Analytics 
